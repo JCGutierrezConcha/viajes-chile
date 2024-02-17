@@ -160,6 +160,80 @@
         </section>
     </main>
 
+    <!--Sección Destacados con tarjetas y columnas de Bootstrap-->
+    <section id="Destacados" class="container">
+        <h2 class="text-center m-auto py-1 pb-md-0">DESTACADOS</h2>
+
+        <div class="row row-cols-1 row-cols-md-4 px-5 my-5">
+            <div class="col">
+                <div class="card text-bg-info border-light text-light m-md-0 m-2">
+                    <img src="./assets/img/card1.jpg" class="card-img-top img-fluid" style="height: 160px;">
+                    <div class="card-body">
+                        <h5 class="card-title fs-4">Torres del Paine</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus
+                            neque. Curabitur accumsan erat justo, sed posuere lacus lobortis vitae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-info border-light text-light m-md-0 m-2">
+                    <img src="./assets/img/card2.jpg" class="card-img-top img-fluid" style="height: 160px;">
+                    <div class="card-body">
+                        <h5 class="card-title fs-4">Laguna Cejar</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus
+                            neque. Curabitur accumsan erat justo, sed posuere lacus lobortis vitae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-info border-light text-light m-md-0 m-2">
+                    <img src="./assets/img/card3.jpg" class="card-img-top img-fluid" style="height: 160px;">
+                    <div class="card-body">
+                        <h5 class="card-title fs-4">Geisers del Tatio</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus
+                            neque. Curabitur accumsan erat justo, sed posuere lacus lobortis vitae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-info border-light text-light m-md-0 m-2">
+                    <img src="./assets/img/card4.jpg" class="card-img-top img-fluid" style="height: 160px;">
+                    <div class="card-body">
+                        <h5 class="card-title fs-4">Bosque Austral</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus
+                            neque. Curabitur accumsan erat justo, sed posuere lacus lobortis vitae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección Contacto con formulario y tooltip de bootstrap y alerta en botón enviar-->
+    <section id="Contacto" class="container">
+        <h2 class="text-center m-auto py-1 pb-md-0">CONTACTO</h2>
+        <form>
+            <div class="form-group mb-3">
+                <label class="mb-2" for="inputNombre">Nombre</label>
+                <input type="text" id="inputNombre" placeholder="Nombre" class="form-control">
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="mb-2" for="inputCorreo">Correo electrónico</label>
+                <input type="email" id="inputCorreo" placeholder="Correo electrónico" class="form-control">
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="mb-2" for="inputMensaje">Mensaje</label>
+                <textarea id="inputMensaje" placeholder="Escribe aquí tu mensaje" class="form-control"></textarea>
+            </div>
+
+            <div class="text-center my-3">
+                <button type="submit" class="btn btn-info text-light" id="enviarMensaje" data-bs-toggle="tooltip"
+                    data-bs-placement="left" title="Presiona para enviar">Enviar</button>
+            </div>
+        </form>
+    </section>
+
     <!--Integrando Jquery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
