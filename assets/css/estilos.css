@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand {
+    width: 50px;
+}
